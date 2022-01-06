@@ -1,0 +1,112 @@
+.contact-form {
+	max-width: 100%;
+	min-width: 600px;
+	margin-top: 10px;
+	background: #ecf4fbe6;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	padding-bottom: 40px;
+}
+
+@media screen and (max-width: 700px) {
+	.contact-form {
+		min-width: 360px;
+	}
+}
+
+.contact-form > div {
+	margin-bottom: 20px;
+}
+
+.contact-form label {
+	display: block;
+	font-weight: 500;
+	font-size: 17px;
+	margin-bottom: 5px;
+	color: #4c5ba4;
+	font-family: 'Poppins', Sans-serif;
+}
+
+.contact-form input,
+.contact-form textarea {
+	font-family: 'Open Sans', Sans-serif;
+	width: 100%;
+	border-radius: 5px;
+	background: #e6f1f7;
+	border: 2px solid #d6e1f7;
+	font-size: 18px;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #4c5ba4;
+	transition: 0.4s ease all;
+}
+
+.contact-form input:focus,
+textarea:focus {
+	outline: none;
+	border: 2px solid #92aad6;
+	transition: 0.4s ease all;
+}
+
+.contact-form .error {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+	-webkit-animation: 0.5s ease 0s normal forwards 1 fadein;
+	animation: 0.5s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	66% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	66% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.contact-form button[type='submit'] {
+	display: block;
+	background: #424d87;
+	font-weight: 400;
+	font-family: 'Poppins', Sans-serif;
+	border: none;
+	cursor: pointer;
+	width: 180px;
+	height: 50px;
+	padding: 10px;
+	color: #fff;
+	font-size: 16px;
+	transition: 0.3s ease all;
+}
+
+.contact-form button[type='submit']:hover {
+	background: #5664b3;
+}
+
+.contact-form .success {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+	color: #02a802;
+}
+
+.contact-form input[type='radio'] {
+	width: auto;
+}

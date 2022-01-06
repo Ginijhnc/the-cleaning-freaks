@@ -1,0 +1,39 @@
+{
+	"header": {
+		"title": "Exterior Cleaning",
+		"subtitle": "Porta vel justo in semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc tellus, pretium vitae ultrices dapibus, bibendum et lorem. Curabitur dolor massa, volutpat."
+	},
+
+	"listItems": [
+		{
+			"id": 1,
+			"header": "Exterior List Item #1",
+			"body": "Donec ultrices cursus regiu. Mauris at diam et nibh imperdiet pretium sit amet at lacus. Sed lectus pulvinar."
+		},
+		{
+			"id": 2,
+			"header": "Exterior List Item #2",
+			"body": "Aliquam placerat lorem ac consequat imperdiet. Mauris ullamcorper, non ornare eleifend, risus purus convallis justo, sit amet."
+		},
+		{
+			"id": 3,
+			"header": "Exterior List Item #3",
+			"body": "Morbi rhoncus, sem ac placerat iaculis, est mauris porta magna, vitae imperdiet justo neque sed arcu. Donec velit."
+		},
+		{
+			"id": 4,
+			"header": "Exterior List Item #4",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit odio ipsum, id sodales lectus placerat vel."
+		},
+		{
+			"id": 5,
+			"header": "Exterior List Item #5",
+			"body": "Etiam velit neque, laoreet at tincidunt et, tempus mattis nibh. Sed egestas diam id lacus venenatis euismod."
+		},
+		{
+			"id": 6,
+			"header": "Exterior List Item #6",
+			"body": "Sed egestas iaculis malesuada. Nulla justo, rutrum non orci a, mattis magna. Pellentesque condimentum eros ac."
+		}
+	]
+}
